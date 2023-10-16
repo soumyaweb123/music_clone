@@ -1,0 +1,138 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body{
+    background-color: beige;
+
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    
+
+}
+nav{
+    font-family: 'Courier New', Courier, monospace;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color:rgb(10, 9, 9);
+    color: white;
+    
+
+}
+nav ul li{
+    padding: 0 12px;
+    align-items: center;
+}
+.and img{
+    width:65px;
+    padding: 0 1px;
+
+}
+.and{
+    display:flex ;
+    align-self: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 73vh;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width:70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding:30px;
+    background-image: url('head.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    color: aliceblue;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myprogressBar{
+    width:80vw;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 14px;
+    
+}
+.icons i{
+    cursor: pointer;
+}
+
+    
+
+ .songitem{
+    height:50px;
+    display: flex;
+    background-color: gray;
+    width:80%;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 34px;
+
+ }   
+ 
+ .songitem img{
+    width: 43px;
+    margin: 0 23px 0;
+    border-radius: 30px;
+ }
+
+    .time{
+        margin: 0 23px;
+
+    }
+    .time i{
+        cursor: pointer;
+    }
+
+    .songinfo {
+        position: absolute;
+        left:10vw;
+        margin-top: 30px;
+    }
+    .songinfo img{
+        opacity: 0;
+        transition: opacity 0.3s ease-in;
+    }
+    @media screen and (min-width: 1000px) {
+        .songitem{
+          background-color: lightgreen;
+        }
+      }
+     .cover img {
+        width:30px;
+
+     }
+     #girl {
+        width:28px;
+        border-radius: 50%;
+     }
+     #flower {
+        width:30px;
+        border-radius: 50%;
+     }
+     #cloud {
+        width:28px;
+        border-radius: 50%;
+     }
